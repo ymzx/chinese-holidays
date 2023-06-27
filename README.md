@@ -52,6 +52,7 @@ data = get_holidays(year='2023', result_save_dir=r'D:\project\enn_lp_xndc\load_b
     'lunarDate': '2022-12-10',
     'lDay': '初十',
     'lMonth': '腊',
+    'status': '1',
     'generalFestival': '元旦',
     'traditionalFestival': None,
     'nationalHoliday': '元旦',
@@ -59,6 +60,7 @@ data = get_holidays(year='2023', result_save_dir=r'D:\project\enn_lp_xndc\load_b
 }
 ```
 > 注意：元旦确实不属于中国传统节日 <br>
+> status为1的时候表示休息日，百度日历上会有休标志的数据,可作为非周末的法定节假日的休息日
 
 ⭐ 2023年国家法定节假日
 ```python
