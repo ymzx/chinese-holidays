@@ -7,6 +7,7 @@ Code: https://github.com/ymzx/chinese-holidays <br>
 PyPi: https://pypi.org/project/py-chinese-holidays/  <br>
 Method: We utilize web scraping from Baidu Online Calendar to retrieve real-time and accurate information by parsing the crawled data. <br>
 Flowchart: <br>
+
 ![](./images/method.png)
 
 ### Installation
