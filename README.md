@@ -14,7 +14,7 @@ Flowchart: <br>
 > pip install py-chinese-holidays
 
 ### 本项目主要内容：
-输入指定你年份字符，例如'2023'
+输入指定的年份字符，例如'2023'
 - 🚀 输出指定年份所有法定休息日
 - 🚀 输出指定年份所有法定节假日，例如元旦、春节、劳动节、国庆节等
 - 🚀 输出指定年份所有传统节假日，例如重阳节、龙头节、端午节等
@@ -30,7 +30,7 @@ data = get_holidays(year='2023', result_save_dir=r'D:\project\enn_lp_xndc\load_b
 
 ```
 'year' —— 指定计算年份   
-'result_save_dir' —— 计算结果以json格式保存路径，可选参数，如果不指定直接返回结果到data
+'result_save_dir' —— 计算结果以json格式保存路径，程序在指定路径下生成{year}_holidays_info.json，可选参数，如果不指定直接返回结果到data
 #### 💡 接口调用效果展示
 ⭐ 全年每天属性信息，以'2023-01-01'为例
 ```python
