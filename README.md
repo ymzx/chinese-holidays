@@ -1,5 +1,13 @@
 # py-chinese-holidays
-![](./images/icon.png)
+<p align="center">
+  <img src="./images/icon.png" />
+</p>
+
+<div align="center">
+  <img src="images/icon.png" alt="图片描述">
+</div>
+
+![](./images/icon.png) <br>
 Description: Calculate Chinese holidays, traditional festivals, and rest days for a specified year. <br>
 Code: https://github.com/ymzx/chinese-holidays <br>
 PyPi: https://pypi.org/project/py-chinese-holidays/  <br>
