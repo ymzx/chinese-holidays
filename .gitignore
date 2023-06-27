@@ -1,0 +1,41 @@
+# Virtualenv
+/.venv/
+/venv/
+experiment/
+2023*/
+examples/
+*.zip
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+.ipynb_checkpoints/
+
+# log file
+*.log
+
+/*.egg-info/
+/.installed.cfg
+/*.egg
+/.eggs
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.cache
+.pytest_cache
+
+
+# Translations
+*.mo
+
+# Sphinx documentation
+/docs/_build/
+
+*.tar
+*.pyc
+
+.idea/
+
+# MAC
+*.DS_Store
+
