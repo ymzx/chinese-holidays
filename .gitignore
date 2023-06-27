@@ -24,7 +24,8 @@ __pycache__/
 .cache
 .pytest_cache
 
-
+/dist
+/py_chinese_holidays.egg-info
 # Translations
 *.mo
 

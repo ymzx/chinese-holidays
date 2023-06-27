@@ -27,7 +27,7 @@ def get_baidu_almanac(year=str(now.year), month=now.month):
     return almanac
 
 
-def get_chinese_holidays(year=str(now.year), result_save_dir=None):
+def get_holidays(year=str(now.year), result_save_dir=None):
     months = ['2', '5', '8', '11'] # 传'2'，返回1-3月数据，依次类推，这里仅需调用4次即可获得全年数据
     almanacs = []
     for month in months:
@@ -107,5 +107,5 @@ def get_chinese_holidays(year=str(now.year), result_save_dir=None):
 
 
 if __name__ == '__main__':
-    info = get_chinese_holidays(year='2023', result_save_dir=r'D:\project\enn_lp_xndc\holidays')
+    info = get_holidays(year='2023', result_save_dir=r'/')
     print(info)
