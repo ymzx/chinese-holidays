@@ -55,6 +55,7 @@ def get_holidays(year=str(now.year), result_save_dir=None):
         day_info['lunarDate'] = ele['lunarYear'] + '-' + ele['lunarMonth'] + '-' + ele['lunarDate']
         day_info['lDay'] = ele['lDate']
         day_info['lMonth'] = ele['lMonth']
+        day_info['status'] = ele.get('status', None)
         day_info['generalFestival'] = ele.get('festivalList', None)
         day_info['traditionalFestival'] = None
         day_info['nationalHoliday'] = None
