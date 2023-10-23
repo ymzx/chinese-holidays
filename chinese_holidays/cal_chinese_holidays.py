@@ -22,7 +22,7 @@ def get_baidu_almanac(year=str(now.year), month=now.month):
         "cb": ""
     }
     # 抓取位置：百度搜索框搜索日历，上面的日历的接口，可以在页面上进行核对
-    r = requests.get(url="https://sp0.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php", headers=headers, params=param).text
+    r = requests.get(url="https://sp0.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php", headers=headers, params=param, verify=False).text
     almanac = json.loads(r)["data"][0]["almanac"]
     return almanac
 
